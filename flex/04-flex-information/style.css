@@ -11,22 +11,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 32px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-.text{
-  padding: 20px;
-  margin: 10px;
-}
-
-.info {
-  max-width: 200px;
+  margin: 32px;
 }
 
 /* do not edit this footer */
@@ -40,4 +25,14 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.icon {
+  max-width: 200px;
 }
